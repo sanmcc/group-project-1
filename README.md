@@ -2,7 +2,7 @@
 
 A battle for the ages to settle once and for all who the winner is. Cats or dogs. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
 
-## You're the Hero
+## You're the Hero 
 
 Select among a wide variety of fighters to pit against each other in the pit. 
 
@@ -27,6 +27,31 @@ A project is a bit different from the Challenge assignments you’ve worked on s
 Projects won’t provide you with a user story or acceptance criteria, because you and your group will create them once you decide which real-world problem your application will solve. This lack of constraints can be freeing in a way, because you have room to build what you want, but it also means that you have to decide what those constraints are before you can start working.
 
 Finally, a project requires a presentation, because you’re trying to convince an audience that it serves a purpose. Your instructional staff and fellow students are investors, and you’re pitching your creation to them&mdash;an experience that developers are required to do frequently. Your presentation is just as important as the actual project, so take it just as seriously.
+
+
+### <u> Support:  </u>
+
+- [MDN](https://developer.mozilla.org/en-US/)  
+
+- [Google](https://Google.com)
+
+### <u> Contact: </u>
+
+- [Contact - Future Coder - Daniel Liljegren](mailto:dahneel@gmail.com)
+- [Contact - Future Coder - Scott Schulman](mailto:scott.schulman84@gmail.com)
+- [Contact - Future Coder - Saniyya Mcclendon](mailto:saniyya.mcclendon@gmail.com)
+- [Contact - Future Coder - Joseph S. Ortega](mailto:MyAgentOrtega@gmail.com)
+
+
+
+
+### <u> Acknowledgement </u>
+
+Authors and acknowledgement: Thank you to all our peers, tutors and instructors that helped us along the way!
+
+### <u> License </u>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Project Requirements
 
