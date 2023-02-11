@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results | Lyric Dawg</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,13 +22,13 @@
         <div class="row text-center">
           <div class="col-md-10 offset-md-1">
             <h2>Choose Your Fighter</h2>
-            <div class="form-group">
+            <!-- <div class="form-group">
               <select
                 name="doggosDropdown"
                 id="doggoDropDown"
                 class="form-control"
-              ></select>
-            </div>
+              ></select> -->
+            <!-- </div>
             <button type="button" onclick="onClick(this)" value="sphy">CAT</button>
             <button type="button" onclick="onClick2(this)" value="boxer">DAWG</button>
             <button type="button" id="fightButton">FIGHT</button>
@@ -36,20 +37,92 @@
           </div>
         </div>
        <div id="kitty"></div>
-       <div id="doggo"></div>
-       
-        <!--<select onchange="showBreedImage(value)" name="breed_selector" id="breed_selector">-->
-        <!--</select>-->
-        
-       <!--Div container for the picture of cats -->
-    
-        <!-- <div class="col-12 col-md-8">
-          <h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
-          <div id="repos-container" class="list-group"></div>
-        </div> -->
-      <!-- </main> -->
+       <div id="doggo"></div> -->
+
+       <div class="row small-up-4 medium-up-4 large-up-4">
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="boxer">
+          <img class="thumbnail" src="./Assets/images/boxer.png">
+        </button>
+          <h5>Boxer</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="stbernard">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+        </button>
+          <h5>Saint Bernard</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="soma">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+        </button>
+          <h5>Soma</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="pers">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Persian</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="retriever/golden">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Golden Retriever</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="bulldog/french">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>French Bulldog</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="asho">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Asho</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="(tabby dupe)">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Tabby</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="chihuahua">
+          <img class="thumbnail" src="./Assets/images/chihuahua.png">
+          </button>
+          <h5>Chihuahua</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick2(this)" value="maltese">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Maltese</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="sphy">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Sphynx</h5>
+        </div>
+        <div class="column">
+          <button type="button" onclick="onClick(this)" value="bsho">
+          <img class="thumbnail" src="https://placehold.it/100x100">
+          </button>
+          <h5>Bsho</h5>
+        </div>
+      
+        <button type="button" id="fightButton">FIGHT</button>
+      
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
       <script src="https://apis.google.com/js/api.js"></script>
       <script src="./Assets/develop/script.js"></script>
-
-<!-- </body> -->
+      <script>
+        $(document).foundation();
+      </script>
+</body>
 </html>
