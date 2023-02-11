@@ -34,6 +34,19 @@ Finally, a project requires a presentation, because you’re trying to convince 
 - [MDN](https://developer.mozilla.org/en-US/)  
 
 - [Google](https://Google.com)
+- https://www.akc.org/dog-breeds/boxer/
+- https://www.akc.org/dog-breeds/st-bernard/
+- https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever
+- https://dogtime.com/dog-breeds/french-bulldog#/slide/1
+- https://dogtime.com/dog-breeds/chihuahua#/slide/1
+- https://dogtime.com/dog-breeds/maltese#/slide/1
+- https://en.wikipedia.org/wiki/Somali_cat
+- https://en.wikipedia.org/wiki/Persian_cat
+- https://www.hillspet.com/cat-care/cat-breeds/american-shorthair
+- https://www.dailypaws.com/cats-kittens/cat-breeds/maine-coon
+- https://www.hillspet.com/cat-care/cat-breeds/sphynx#:~:text=The%20sphynx%20is%20a%20medium,medium%20sized%20but%20nicely%20muscled.
+- https://www.purina.co.uk/find-a-pet/cat-breeds/british-shorthair#:~:text=The%20British%20Shorthair%20is%20a,expression%20and%20bags%20of%20character.
+
 
 ### <u> Contact: </u>
 

@@ -1,0 +1,47 @@
+*{
+    color: white;
+}
+
+h2, h5 {
+    font-family: '8BITWONDERNominal';
+    
+}
+
+.container-fluid {
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+#emptyDiv {
+    min-width: 40em;
+    min-height: 50em;
+}
+
+.float-container {
+    display: inline-flex;
+}
+
+#catBox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#fightBox {
+    min-width: 20em;
+}
+
+#dogBox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#fightButton {
+    align-self: center;
+}

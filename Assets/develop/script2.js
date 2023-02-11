@@ -6,7 +6,8 @@ function getKitty(catBreed){
           return response.json();
       })
       .then(function(data) {
-        JSON.stringify(data)   
+        JSON.stringify(data) 
+        console.log(data)  
         var kittyURL = data[0].url
         var image = document.createElement("img")
         image.setAttribute("src", kittyURL);
