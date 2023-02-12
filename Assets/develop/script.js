@@ -19,4 +19,5 @@ function onClick2($this) {
 fightButton.addEventListener("click", function() {
   var fightPage = "./search-results.html"
   location.assign(fightPage)
+  
 });

@@ -52,6 +52,12 @@ body {
     min-width: 20em;
 }
 
+p {
+    font-size: larger;
+    font-weight: 800;
+    text-shadow: 3px 6px 0 black
+}
+
 #dogBox {
     position:relative;
 }
@@ -78,4 +84,32 @@ h2 {
     font-size: xx-large;
     font-family: "8BITWONDERNominal";
     font-weight:900;
+}
+
+.audioDiv {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+audio::-webkit-media-controls-play-button{
+    background-color:red;}
+
+.fightFluid {
+    display: inline;
+    float: center;
+}
+
+#kitty {
+    position: absolute;
+    left: 0;
+    bottom: 10em;
+}
+
+#doggo {
+    position: absolute;
+    right: 0;
+    bottom: 10em;
 }

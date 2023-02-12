@@ -11,6 +11,7 @@ function getKitty(catBreed){
         var kittyURL = data[0].url
         var image = document.createElement("img")
         image.setAttribute("src", kittyURL);
+        image.style.width = "400px";
         kitty.appendChild(image);
       })
     }
@@ -30,6 +31,7 @@ function getDoggo(dogBreed) {
       console.log(doggoURL)
       var image = document.createElement("img")
       image.setAttribute("src", doggoURL);
+      image.style.width = "400px";
       doggo.appendChild(image);
   })}
 
