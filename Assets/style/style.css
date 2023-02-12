@@ -11,37 +11,71 @@ h2, h5 {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 0;
 }
 
 body {
-    background-color: black;
+    background-image: url(../images/brix.png);
 }
 
 #emptyDiv {
-    min-width: 40em;
-    min-height: 50em;
+    
+    min-width:40em;
+    min-height:45em;
+    
 }
 
-.float-container {
+.container {
     display: inline-flex;
+    position: fixed;
+    align-self: center;
+    min-height: 30em;
+    min-width: none;
+    bottom: 0;
+    background-image: url(../images/brix.png); 
+}
+
+
+.row .column {
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
 
 #catBox {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position:relative;
 }
 
 #fightBox {
+    align-self: center;
+    text-align: center;
     min-width: 20em;
 }
 
 #dogBox {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position:relative;
+}
+
+.c1:hover {
+    background-color: rgb(150, 15, 82);
+}
+
+.c2:hover {
+    background-color: rgb(6, 112, 112);
+}
+
+h2 {
+    text-shadow: 3px 6px 0 black;
 }
 
 #fightButton {
-    align-self: center;
+    padding-top: 50px;
+    color: yellow;
+    text-shadow: 2px 3px 0 black,
+                 2px 6px 0 red,
+                 2px 5px 0 orange,                
+                 2px 4px 0 yellow;
+    font-size: xx-large;
+    font-family: "8BITWONDERNominal";
+    font-weight:900;
 }
