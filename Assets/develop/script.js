@@ -16,8 +16,14 @@ function onClick2($this) {
     console.log("no input");
   } else {
     localStorage.setItem("doggo", dogBreed);
-  }
-}
+     
+  }};
+  
+  fightButton.addEventListener("click", function() {
+    var fightPage = "./search-results.html"
+    location.assign(fightPage)
+    
+  });
 
 fightButton.addEventListener("click", function () {
   var fightPage = "./search-results.html";
