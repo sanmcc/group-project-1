@@ -1,8 +1,8 @@
   var timeEl = document.querySelector("#clock");
   var ko = document.getElementById("timer");
   var player = document.getElementById("player");
-  var dogPunch = document.getElementById("punch2");
-  var kittyPunch = document.getElementById("punch1");
+  
+  
   var punchPic = "Assets\images\punch.png"
 
   function getKitty(catBreed){
@@ -61,6 +61,7 @@
   }
  
   function fightMe() {
+    var kittyPunch = document.getElementById("punch1");
     setTimeout(
       function () {
     kittyPunch.style.display = "block";
@@ -69,12 +70,22 @@
   }
   
   function fightMe2() {
+    var dogPunch = document.getElementById("punch2");
     setTimeout(
       function () {
     dogPunch.style.display = "block";
+    displayKO();
       }, 2000);
   }
 
+  function displayKO() {
+    var koDiv = document.getElementById("ko")
+    setTimeout(
+      function () {
+    koDiv.style.display = "block";
+    displayKO();
+      }, 2000);
+  }
 getKitty(localStorage.getItem("kitty"));
 getDoggo(localStorage.getItem("doggo"));
 player.addEventListener("play", () => {
