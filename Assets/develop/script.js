@@ -13,6 +13,7 @@ function onClick2($this) {
   if (dogBreed == ''){
      console.log("no input");
   } else {
+      
       localStorage.setItem("doggo", dogBreed);
 }};
 

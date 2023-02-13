@@ -67,7 +67,18 @@ p {
 }
 
 .c2:hover {
-    background-color: rgb(6, 112, 112);
+    background-color: rgb(6, 105, 105);
+}
+
+
+.t1:hover {
+    border-color: chartreuse;
+    border-width: 1em;
+}
+
+.t2:hover {
+    border-color: rgb(142, 58, 252);
+    border-width: 1em;
 }
 
 h2 {
@@ -108,8 +119,30 @@ audio::-webkit-media-controls-play-button{
     bottom: 10em;
 }
 
+#punch1 {
+    display: none;
+}
+
+#punch2 {
+    display: none;
+}
+
 #doggo {
     position: absolute;
     right: 0;
     bottom: 10em;
+}
+
+#timer {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+    font-size: 140px;
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(226,253,45,0.8113620448179272) 100%);
+    text-shadow: 3px 3px 0 black;
+    border-radius: 50px;
+    width: 300px;
+    
 }
