@@ -127,6 +127,10 @@ audio::-webkit-media-controls-play-button{
     display: none;
 }
 
+#ko {
+    display: none;
+}
+
 #doggo {
     position: absolute;
     right: 0;
