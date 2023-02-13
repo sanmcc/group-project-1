@@ -75,17 +75,33 @@
       function () {
     dogPunch.style.display = "block";
     displayKO();
-      }, 2000);
+      }, 3000);
   }
 
   function displayKO() {
     var koDiv = document.getElementById("ko")
     setTimeout(
       function () {
-    koDiv.style.display = "block";
-    displayKO();
-      }, 2000);
+      koDiv.style.display = "block";
+      chickenDinner();
+      }, 3000);
   }
+
+  function chickenDinner() {
+    var num = Math.floor(Math.random() * 10) + 1;
+    if (num >= 5) {
+      kittyWins = localStorage.getItem("kitty");
+      localStorage.setItem("winner", kittyWins)
+      var championPage = "./stage.html"
+      location.assign(championPage)
+    } else {
+      doggoWins = localStorage.getItem("doggo");
+      localStorage.setItem("winner", doggoWins);
+      var championPage = "./stage.html"
+      location.assign(championPage)
+    }
+  }
+
 getKitty(localStorage.getItem("kitty"));
 getDoggo(localStorage.getItem("doggo"));
 player.addEventListener("play", () => {
