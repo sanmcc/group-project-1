@@ -14,8 +14,15 @@ h2, h5 {
     margin-right: 0;
 }
 
-body {
+
+.bg1 {
     background-image: url(../images/brix.png);
+    
+}
+
+.bg2 {
+    background-image: url(../images/bg2.png);
+ 
 }
 
 #emptyDiv {
