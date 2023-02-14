@@ -56,6 +56,7 @@ html {
 
 #catBox {
     position:relative;
+    padding:3px;
 }
 
 #fightBox {
@@ -72,6 +73,7 @@ p {
 
 #dogBox {
     position:relative;
+    padding:3px;
 }
 
 .c1:hover {
@@ -85,12 +87,12 @@ p {
 
 .t1:hover {
     border-color: chartreuse;
-    border-width: 1em;
+    border-width: 3px;
 }
 
 .t2:hover {
     border-color: rgb(142, 58, 252);
-    border-width: 1em;
+    border-width: 3px;
 }
 
 h2 {
