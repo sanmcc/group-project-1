@@ -1,12 +1,12 @@
-# group-project-1 - Lyric Dawg(working title) -
+# Group-Project-1 - KATZ 'N' DAWGZ 
 
-A battle for the ages to settle once and for all who the winner is. Cats or dogs. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
+A battle for the ages to settle once and for all who the winner is. Cats🐈 or dogs🐕. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
 
 ## You're the Hero 
 
 Select among a wide variety of fighters to pit against each other in the pit. 
 
-## Experience Cutting Edge Graphics
+## Experience Cutting Edge Graphics & Design
 
 The Foundation CSS framework brings the action directly from the screen to your brain!
 
@@ -14,9 +14,19 @@ The Foundation CSS framework brings the action directly from the screen to your 
 
 Multiple server-side APIs lock you into the action by(add)
 
+# Technologies Used
+* CSS
+* JS
+* HTML
+* Procreate
+* Youtube/mp3
+* PC/MAC/iPad
+
+
 # Link to Deployed URL
 
 # Screenshot
+![KATZ 'N' DAWGZ Website Screenshot](./Assets/images/Screenshot.jpeg)
 
 # 07 Project 1: Interactive Front-End Application
 
@@ -32,8 +42,9 @@ Finally, a project requires a presentation, because you’re trying to convince 
 ### <u> Support:  </u>
 
 - [MDN](https://developer.mozilla.org/en-US/)  
+- [Google](https://Google.com)<br>
+### <u>Resources:</u>
 
-- [Google](https://Google.com)
 - https://www.akc.org/dog-breeds/boxer/
 - https://www.akc.org/dog-breeds/st-bernard/
 - https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever
@@ -58,9 +69,9 @@ Finally, a project requires a presentation, because you’re trying to convince 
 
 
 
-### <u> Acknowledgement </u>
+### <u> Authors & Acknowledgement </u>
 
-Authors and acknowledgement: Thank you to all our peers, tutors and instructors that helped us along the way!
+Thank you to all our peers, tutors and instructors that helped us along the way!
 
 ### <u> License </u>
 

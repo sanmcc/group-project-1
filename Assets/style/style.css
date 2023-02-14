@@ -12,16 +12,17 @@ h2, h5 {
     color: black; 
 }
 
-.container-fluid {
+html {
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.bg1 {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 0;
-}
-
-
-.bg1 {
-    background-image: url(../images/brix.png);
     
 }
 
@@ -56,6 +57,7 @@ h2, h5 {
 
 #catBox {
     position:relative;
+    padding:1px;
 }
 
 #fightBox {
@@ -72,6 +74,18 @@ p {
 
 #dogBox {
     position:relative;
+    padding:1px;
+}
+
+#start {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 35%;
+    margin-right: 30%;
+    bottom: 50px;
+    text-align: center;
 }
 
 .c1:hover {
@@ -85,12 +99,12 @@ p {
 
 .t1:hover {
     border-color: chartreuse;
-    border-width: 1em;
+    border-width: 3px;
 }
 
 .t2:hover {
     border-color: rgb(142, 58, 252);
-    border-width: 1em;
+    border-width: 3px;
 }
 
 h2 {
@@ -131,7 +145,7 @@ audio::-webkit-media-controls-play-button{
     bottom: 10em;
 }
 
-#punch1 {
+#punch1, #punch2, #punch3, #punch4 {
     display: none;
 }
 
@@ -161,4 +175,20 @@ audio::-webkit-media-controls-play-button{
     border-radius: 50px;
     width: 300px;
     
+}
+
+
+#winnerPic {
+    display: absolute;
+    top: 0;
+    text-align: center;
+    margin-left: -30px;
+    height: auto;
+}
+
+#choose {
+    color: red;
+}
+#select {
+    color: darkorange;
 }

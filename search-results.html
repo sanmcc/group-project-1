@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Results | Lyric Dawg</title>
+    <title>MORTAL DOGKAT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,9 +12,18 @@
     />
     <link rel="stylesheet" href="./Assets/style/style.css" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/8bit-wonder" type="text/css"/>
+    <style>
+      body {
+      background:url(./Assets/images/bg2.png) no-repeat center center fixed;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      }
+    </style>
   </head>
 
-  <body>
+  <body id="stagebg">
     <div id="embed-iframe"></div>
            <div class="container-fluid fightFluid"> 
             <div class="start-over"></div>
@@ -22,6 +31,7 @@
             </div>
             <div class="row">
             <div id="punch1"><img src="./Assets/images/punch.png" style="position:absolute; left:100px; top:50px;"></div>
+            <div id="punch3"><img src="./Assets/images/punch.png" style="position:absolute; left:150px; top:300px;"></div>
             <div class="column" id="kitty">
               <div></div>
             </div>
@@ -30,6 +40,7 @@
               <h1 id="clock"></h1>
             </div>
             <div id="punch2"><img src="./Assets/images/punch.png" style="position:absolute; right:150px; top:300px;"></div>
+            <div id="punch4"><img src="./Assets/images/punch.png" style="position:absolute; right:200px; top:50px;"></div>
             <div class="column" id="doggo"></div>
             </div>
           </div>
@@ -37,8 +48,9 @@
         </div>
       </div>
     </div>
+    <h3 id="start">Press Play to Begin</h3>
     <div class="audioDiv">
-      <h3 id="start">Press Play to Begin</h3>
+      
       <audio class="audio" controls="controls" id="player">
       <source src="./Assets/music/Mortal Kombat Theme but it sounds like animals.mp3" type="audio/mpeg" />
     </div>

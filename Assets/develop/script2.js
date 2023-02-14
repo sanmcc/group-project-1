@@ -19,6 +19,7 @@
         var image = document.createElement("img")
         image.setAttribute("src", kittyURL);
         image.style.width = "400px";
+        image.style.height = "400px";
         kitty.appendChild(image);
       })
     }
@@ -39,6 +40,7 @@
       var image = document.createElement("img")
       image.setAttribute("src", doggoURL);
       image.style.width = "400px";
+      image.style.height = "400px";
       doggo.appendChild(image);
   })}
 
@@ -71,6 +73,24 @@
   
   function fightMe2() {
     var dogPunch = document.getElementById("punch2");
+    setTimeout(
+      function () {
+    dogPunch.style.display = "block";
+    fightMe3();
+      }, 2000);
+  }
+
+  function fightMe3() {
+    var kittyPunch = document.getElementById("punch3");
+    setTimeout(
+      function () {
+    kittyPunch.style.display = "block";
+    fightMe4();
+      }, 2000);
+  }
+
+  function fightMe4() {
+    var dogPunch = document.getElementById("punch4");
     setTimeout(
       function () {
     dogPunch.style.display = "block";
