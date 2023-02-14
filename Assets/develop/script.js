@@ -56,7 +56,14 @@ function highlightImg() {
     };
   }
 
-  }
+  // $("img").on('click',function(e){
+  //   e.preventDefault();
+  //   $("img").removeClass('active');
 
+  //   $(this).addClass('active');
+
+  // }
+// )
+};
 
 highlightImg();
