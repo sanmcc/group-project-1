@@ -1,12 +1,12 @@
-# group-project-1 - KATZ 'N' DAWGZ 
+# Group-Project-1 - KATZ 'N' DAWGZ 
 
-A battle for the ages to settle once and for all who the winner is. Cats or dogs. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
+A battle for the ages to settle once and for all who the winner is. Cats🐈 or dogs🐕. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
 
 ## You're the Hero 
 
 Select among a wide variety of fighters to pit against each other in the pit. 
 
-## Experience Cutting Edge Graphics
+## Experience Cutting Edge Graphics & Design
 
 The Foundation CSS framework brings the action directly from the screen to your brain!
 
@@ -26,6 +26,7 @@ Multiple server-side APIs lock you into the action by(add)
 # Link to Deployed URL
 
 # Screenshot
+![KATZ 'N' DAWGZ Website Screenshot](./Assets/images/Screenshot.jpeg)
 
 # 07 Project 1: Interactive Front-End Application
 
@@ -38,10 +39,12 @@ Projects won’t provide you with a user story or acceptance criteria, because y
 Finally, a project requires a presentation, because you’re trying to convince an audience that it serves a purpose. Your instructional staff and fellow students are investors, and you’re pitching your creation to them&mdash;an experience that developers are required to do frequently. Your presentation is just as important as the actual project, so take it just as seriously.
 
 
-### <u> Support & Resources:  </u>
+### <u> Support:  </u>
 
 - [MDN](https://developer.mozilla.org/en-US/)  
-- [Google](https://Google.com)
+- [Google](https://Google.com)<br>
+### <u>Resources:</u>
+
 - https://www.akc.org/dog-breeds/boxer/
 - https://www.akc.org/dog-breeds/st-bernard/
 - https://www.dailypaws.com/dogs-puppies/dog-breeds/golden-retriever
