@@ -16,6 +16,7 @@ html {
     background-image: url(../images/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 .bg1 {
@@ -74,6 +75,17 @@ p {
 #dogBox {
     position:relative;
     padding:3px;
+}
+
+#start {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 35%;
+    margin-right: 30%;
+    bottom: 50px;
+    text-align: center;
 }
 
 .c1:hover {
