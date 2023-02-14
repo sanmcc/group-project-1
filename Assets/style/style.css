@@ -7,17 +7,19 @@ h2, h5 {
     
 }
 
-.container-fluid {
-    background-image: url(../images/bg1.png);
+
+html {
+    background-image: url(../images/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 0;
 }
 
 
 .bg1 {
-    background-image: url(../images/brix.png);
-    
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0;
 }
 
 .bg2 {
@@ -126,7 +128,7 @@ audio::-webkit-media-controls-play-button{
     bottom: 10em;
 }
 
-#punch1 {
+#punch1, #punch2, #punch3, #punch4 {
     display: none;
 }
 
@@ -157,3 +159,13 @@ audio::-webkit-media-controls-play-button{
     width: 300px;
     
 }
+
+
+#winnerPic {
+    display: absolute;
+    top: 0;
+    text-align: center;
+    margin-left: -30px;
+    height: auto;
+}
+
