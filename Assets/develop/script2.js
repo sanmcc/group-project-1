@@ -1,7 +1,7 @@
   var timeEl = document.querySelector("#clock");
   var ko = document.getElementById("timer");
   var player = document.getElementById("player");
-  
+  var start = document.getElementById("start");
   
   var punchPic = "Assets\images\punch.png"
 
@@ -52,7 +52,7 @@
     var timerInterval = setInterval(function() {
       secondsLeft--;
       timeEl.textContent = secondsLeft;
-  
+      start.style.display = "none";
       if(secondsLeft === 0) {
         clearInterval(timerInterval);
         ko.style.visibility = 'hidden';
@@ -68,7 +68,7 @@
       function () {
     kittyPunch.style.display = "block";
     fightMe2();
-      }, 2000);
+      }, 3000);
   }
   
   function fightMe2() {
@@ -77,7 +77,7 @@
       function () {
     dogPunch.style.display = "block";
     fightMe3();
-      }, 2000);
+      }, 3000);
   }
 
   function fightMe3() {
@@ -86,7 +86,7 @@
       function () {
     kittyPunch.style.display = "block";
     fightMe4();
-      }, 2000);
+      }, 3000);
   }
 
   function fightMe4() {
@@ -100,9 +100,10 @@
 
   function displayKO() {
     var koDiv = document.getElementById("ko")
+    koDiv.style.display = "block";
     setTimeout(
       function () {
-      koDiv.style.display = "block";
+      
       chickenDinner();
       }, 3000);
   }
