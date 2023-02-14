@@ -1,4 +1,4 @@
-# group-project-1 - Lyric Dawg(working title) -
+# group-project-1 - KATZ 'N' DAWGZ 
 
 A battle for the ages to settle once and for all who the winner is. Cats or dogs. Pit your adorable weapons of choice against each other to set forth a cacophony of mayhem where only the strongest will survive. 
 
@@ -13,6 +13,15 @@ The Foundation CSS framework brings the action directly from the screen to your 
 ## The Ferrari of Fighting Pits
 
 Multiple server-side APIs lock you into the action by(add)
+
+# Technologies Used
+* CSS
+* JS
+* HTML
+* Procreate
+* Youtube/mp3
+* PC/MAC/iPad
+
 
 # Link to Deployed URL
 
@@ -29,10 +38,9 @@ Projects won’t provide you with a user story or acceptance criteria, because y
 Finally, a project requires a presentation, because you’re trying to convince an audience that it serves a purpose. Your instructional staff and fellow students are investors, and you’re pitching your creation to them&mdash;an experience that developers are required to do frequently. Your presentation is just as important as the actual project, so take it just as seriously.
 
 
-### <u> Support:  </u>
+### <u> Support & Resources:  </u>
 
 - [MDN](https://developer.mozilla.org/en-US/)  
-
 - [Google](https://Google.com)
 - https://www.akc.org/dog-breeds/boxer/
 - https://www.akc.org/dog-breeds/st-bernard/
@@ -58,9 +66,9 @@ Finally, a project requires a presentation, because you’re trying to convince 
 
 
 
-### <u> Acknowledgement </u>
+### <u> Authors & Acknowledgement </u>
 
-Authors and acknowledgement: Thank you to all our peers, tutors and instructors that helped us along the way!
+Thank you to all our peers, tutors and instructors that helped us along the way!
 
 ### <u> License </u>
 
