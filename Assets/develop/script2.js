@@ -19,6 +19,7 @@
         var image = document.createElement("img")
         image.setAttribute("src", kittyURL);
         image.style.width = "400px";
+        image.style.height = "400px";
         kitty.appendChild(image);
       })
     }
@@ -39,6 +40,7 @@
       var image = document.createElement("img")
       image.setAttribute("src", doggoURL);
       image.style.width = "400px";
+      image.style.height = "400px";
       doggo.appendChild(image);
   })}
 
