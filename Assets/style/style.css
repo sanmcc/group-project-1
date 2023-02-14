@@ -57,7 +57,7 @@ html {
 
 #catBox {
     position:relative;
-    padding:3px;
+    padding:1px;
 }
 
 #fightBox {
@@ -74,7 +74,7 @@ p {
 
 #dogBox {
     position:relative;
-    padding:3px;
+    padding:1px;
 }
 
 #start {
@@ -186,3 +186,9 @@ audio::-webkit-media-controls-play-button{
     height: auto;
 }
 
+#choose {
+    color: red;
+}
+#select {
+    color: darkorange;
+}
