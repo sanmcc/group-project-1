@@ -74,6 +74,24 @@
     setTimeout(
       function () {
     dogPunch.style.display = "block";
+    fightMe3();
+      }, 2000);
+  }
+
+  function fightMe3() {
+    var kittyPunch = document.getElementById("punch3");
+    setTimeout(
+      function () {
+    kittyPunch.style.display = "block";
+    fightMe4();
+      }, 2000);
+  }
+
+  function fightMe4() {
+    var dogPunch = document.getElementById("punch4");
+    setTimeout(
+      function () {
+    dogPunch.style.display = "block";
     displayKO();
       }, 3000);
   }
