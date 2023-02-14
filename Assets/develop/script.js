@@ -2,6 +2,16 @@ fightButton = document.getElementById("fightButton");
 
 function onClick($this) {
   var catBreed = $this.value;
+  var imgProp = {
+    padding: "1px",
+    backgroundColor: "#eded01",
+    borderSize: "3px",
+    borderStyle: "inset",
+    borderColor: "red",
+  };
+
+
+  
   if (catBreed == "") {
     console.log("no input");
   } else {
@@ -33,9 +43,9 @@ fightButton.addEventListener("click", function () {
 });
 
 var imgProp = {
-  padding: "3px",
+  padding: "1px",
   backgroundColor: "#eded01",
-  borderSize: "1ps",
+  borderSize: "3px",
   borderStyle: "inset",
   borderColor: "red",
 };
@@ -55,6 +65,7 @@ function highlightImg() {
       this.style.borderColor = imgProp.borderColor;
     };
   }
+  
 
   // $("img").on('click',function(e){
   //   e.preventDefault();

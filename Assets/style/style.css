@@ -2,6 +2,11 @@
     color: white;
 }
 
+#play {
+    color: black;
+    font-family: '8BITWONDERNominal';
+}
+
 h2, h5 {
     font-family: '8BITWONDERNominal';
     
