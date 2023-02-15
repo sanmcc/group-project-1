@@ -135,6 +135,10 @@ h2 {
 audio::-webkit-media-controls-play-button{
     background-color:red;}
 
+#dogPlayer, #catPlayer {
+    display: none;
+}
+    
 .fightFluid {
     display: inline;
     float: center;
@@ -192,4 +196,57 @@ audio::-webkit-media-controls-play-button{
 }
 #select {
     color: darkorange;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #9915aa, #86ce01, #c9f30b);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.linkHome {
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.winnerSong {
+    margin-left: -30%;
+    color: rgb(0, 140, 255);
+    text-shadow: 3px 3px 0 black,
+                 2px 5px 0 white,                
+                 2px 4px 0 yellow;
+    font-size: xx-large;
+    font-family: "8BITWONDERNominal";
+    font-weight:900;
 }
