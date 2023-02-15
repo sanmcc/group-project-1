@@ -78,6 +78,7 @@ p {
 }
 
 #start {
+    display: block;
     position: absolute;
     color: white;
     font-size: xx-large;
