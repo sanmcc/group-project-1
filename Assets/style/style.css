@@ -2,7 +2,7 @@
     color: white;
 }
 
-h2, h5 {
+h2, h6 {
     font-family: '8BITWONDERNominal';
     
 }
@@ -48,10 +48,13 @@ html {
     background-image: url(../images/brix.png); 
 }
 
+.mainCont {
+    padding-bottom: -50px;
+}
 
 .row .column {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
     
 }
 
@@ -132,6 +135,11 @@ h2 {
     margin-right: 50%;
 }
 
+.audioDiv2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 audio::-webkit-media-controls-play-button{
     background-color:red;}
 
@@ -192,9 +200,11 @@ audio::-webkit-media-controls-play-button{
 }
 
 #choose {
+    font-size: xx-large;
     color: red;
 }
 #select {
+    font-size: xx-large;
     color: darkorange;
 }
 
@@ -236,17 +246,17 @@ audio::-webkit-media-controls-play-button{
 
 .linkHome {
     position: absolute;
-    right:0;
+    left:0;
     top:0;
 }
 
 .winnerSong {
-    margin-left: -30%;
+    margin-top: 25%;;
     color: rgb(0, 140, 255);
     text-shadow: 3px 3px 0 black,
                  2px 5px 0 white,                
                  2px 4px 0 yellow;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: "8BITWONDERNominal";
-    font-weight:900;
+    font-weight:800;
 }
