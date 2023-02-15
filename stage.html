@@ -31,6 +31,19 @@
         -o-background-size:cover;
         background-size: cover;
       }
+
+      .goback {
+    background-color: #5e5d5b;
+    width:175px;
+    height:65px;
+   padding: auto;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow:0 1px 2px #5e5d5b;
+    text-align: center;  
+    line-height: 65px;   
+}
+
     </style>
   </head>
 
@@ -41,7 +54,9 @@
       <div class="column align-self-middle" id="winnerGif">
        <!--<img src="Assets/images/dead-or-alive-kasumi.gif" class="column align-self-middle gif doa">-->
       </div>
-      
+     <button>
+        <input type="button" class="goback" onclick="history.go(-2)">Go Back!
+     </button>
     </div>
       
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

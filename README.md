@@ -22,7 +22,6 @@ Multiple server-side APIs lock you into the action by(add)
 * Youtube/mp3
 * PC/MAC/iPad
 
-
 # Link to Deployed URL
 
 # Screenshot
