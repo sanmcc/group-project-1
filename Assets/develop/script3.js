@@ -2,6 +2,8 @@ var winnerPic = document.getElementById("winnerPic");
 var catWins = localStorage.getItem("kitty");
 var dogWins = localStorage.getItem("doggo");
 var winner = localStorage.getItem("winner");
+var catPlayer = document.getElementById("catPlayer");
+var dogPlayer = document.getElementById("dogPlayer");
 
 if (winner == catWins) {
     getKitty(winner);
@@ -23,6 +25,7 @@ function getKitty(winner){
         image.setAttribute("src", kittyURL);
         image.style.height = "300px";
         winnerPic.appendChild(image);
+        catPlayer.style.display = "block";
       })
     }
 
@@ -42,4 +45,5 @@ function getDoggo(winner) {
       image.setAttribute("src", doggoURL);
       image.style.width = "400px";
       winnerPic.appendChild(image);
+      dogPlayer.style.display = "block";
   })}
