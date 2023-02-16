@@ -1,5 +1,12 @@
 *{
-    color: white;
+    color: var(--w);
+}
+
+:root {
+    --w: white;
+    --b: black;
+    --r: red;
+    --y: yellow;
 }
 
 h2, h6 {
@@ -9,14 +16,14 @@ h2, h6 {
 
 #start {
     font-family: '8BITWONDERNominal';
-    color: black; 
+    color: var(--b); 
 }
 
 html {
     background-image: url(../images/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    background-color: var(--b);
 }
 
 .bg1 {
@@ -72,7 +79,7 @@ html {
 p {
     font-size: larger;
     font-weight: 800;
-    text-shadow: 3px 6px 0 black
+    text-shadow: 3px 6px 0 var(--b)
 }
 
 #dogBox {
@@ -83,9 +90,9 @@ p {
 #start {
     display: block;
     position: absolute;
-    color: white;
+    color: var(--w);
     font-size: xx-large;
-    text-shadow: 2px 3px 0 black;
+    text-shadow: 2px 3px 0 var(--b);
     margin-left: 35%;
     margin-right: 30%;
     bottom: 50px;
@@ -112,16 +119,16 @@ p {
 }
 
 h2 {
-    text-shadow: 3px 6px 0 black;
+    text-shadow: 3px 6px 0 var(--b);
 }
 
 #fightButton {
     padding-top: 50px;
-    color: yellow;
-    text-shadow: 2px 3px 0 black,
-                 2px 6px 0 red,
+    color: var(--y);
+    text-shadow: 2px 3px 0 var(--b),
+                 2px 6px 0 var(--r),
                  2px 5px 0 orange,                
-                 2px 4px 0 yellow;
+                 2px 4px 0 var(--y);
     font-size: xx-large;
     font-family: "8BITWONDERNominal";
     font-weight:900;
@@ -141,7 +148,7 @@ h2 {
     right: 0;
 }
 audio::-webkit-media-controls-play-button{
-    background-color:red;}
+    background-color:var(--r);}
 
 #dogPlayer, #catPlayer {
     display: none;
@@ -184,7 +191,7 @@ audio::-webkit-media-controls-play-button{
     font-size: 140px;
     background: rgb(195,34,34);
     background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(226,253,45,0.8113620448179272) 100%);
-    text-shadow: 3px 3px 0 black;
+    text-shadow: 3px 3px 0 var(--b);
     border-radius: 50px;
     width: 300px;
     
@@ -201,7 +208,7 @@ audio::-webkit-media-controls-play-button{
 
 #choose {
     font-size: xx-large;
-    color: red;
+    color: var(--r);
 }
 #select {
     font-size: xx-large;
@@ -253,10 +260,11 @@ audio::-webkit-media-controls-play-button{
 .winnerSong {
     margin-top: 25%;;
     color: rgb(0, 140, 255);
-    text-shadow: 3px 3px 0 black,
-                 2px 5px 0 white,                
-                 2px 4px 0 yellow;
+    text-shadow: 3px 3px 0 var(--b),
+                 2px 5px 0 var(--w),                
+                 2px 4px 0 var(--y);
     font-size: x-large;
     font-family: "8BITWONDERNominal";
     font-weight:800;
 }
+
